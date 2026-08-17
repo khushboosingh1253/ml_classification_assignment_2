@@ -76,6 +76,16 @@ https://github.com/khushboosingh1253/ml_classification_assignment_2
 | **Random Forest**   | **0.9737** | **0.9929** | **1.0000** | **0.9286** | **0.9630** | **0.9442** |
 
 ---
+| **ML Model Name**                    | **Observation about model performance**                                                                                                                                    |
+| ------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **Logistic Regression**              | Achieved **96.49% accuracy** and **99.60% AUC**. It performed very well with high precision, recall, F1 score, and MCC.                                                    |
+| **Decision Tree**                    | Achieved **92.98% accuracy** and **92.46% AUC**. It performed reasonably well but had lower overall performance compared with Logistic Regression, kNN, and Random Forest. |
+| **kNN**                              | Achieved **95.61% accuracy** and **98.23% AUC**. It performed well after feature scaling, with high precision and a good F1 score.                                         |
+| **Naive Bayes**                      | Achieved **92.11% accuracy** and **98.91% AUC**. Although the AUC was high, it had comparatively lower recall and F1 score.                                                |
+| **Random Forest (Ensemble)**         | Achieved the **highest accuracy (97.37%)**, precision (**100%**), F1 score (**96.30%**), and MCC (**0.9442**). It showed the best overall performance.                     |
+| **Overall Winner for your dataset?** | **Random Forest (Ensemble)** is the overall winner because it achieved the best accuracy, precision, F1 score, and MCC, along with a very high AUC.                        |
+
+---
 
 
 ## Overall Best Model
